@@ -19,7 +19,7 @@
 */
 
 @media only screen and (max-width: 640px) {
-table, tbody, tr, td, th, caption{
+table, tbody, tr, td, th, caption {
    display: block;
 }
 
@@ -27,13 +27,13 @@ thead, h1{
    display: none;
 }
 
-caption{
+caption {
    color: white;
    background-color: #333;
    font-size: 1.5em;
    line-height: 2em;
 }
-td{
+td {
    border: 1px dotted grey;
    color: rgb(12,12, 145);
    position: relative;
@@ -64,3 +64,20 @@ td::before{
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
+@media only screen and (min-width: 641px) {
+   table {
+      background-image: url("lht_photo1.png");
+      background-repeat:no-repeat ;
+      background-position: right bottom;
+      background-size: 40% 100%;
+      border: 6px;
+      border-color:rgb(154, 64, 3);
+      border-style: double;
+      border-collapse: collapse;
+      margin: 20px auto 20px auto;
+      table-layout: fixed;
+      width: 85%;
+      
+   }
+
+}
