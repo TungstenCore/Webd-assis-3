@@ -80,7 +80,7 @@ td::before{
       
    }
 
-   h1, td{
+   th, td{
       border: 1px;
       border-style: solid;
       border-color: grey;
@@ -108,6 +108,10 @@ td::before{
       padding-bottom: 10px;
       font-size: 1.2em;
       letter-spacing: 3px;
+   }
+   thead th{
+      background-color: rgb(154,64,3);
+      color: white;
    }
 
 
