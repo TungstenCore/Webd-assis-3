@@ -80,4 +80,23 @@ td::before{
       
    }
 
+   h1, td{
+      border: 1px;
+      border-style: solid;
+      border-color: grey;
+      font-size: 0.85em;
+      font-weight: normal;
+      padding: 5px;
+      width: 14.28%;
+      vertical-align: top;
+      word-wrap: break-word;
+   }
+
+   td {
+      background-color: rgb(171,171,171, 0.6);
+      color: rgb(11,12,145);
+   }
+
+
+
 }
